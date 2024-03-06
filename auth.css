@@ -1,0 +1,55 @@
+/* Style for navbar */
+body {
+    background-color: #212121;
+    color: #fff;
+    font-family: monospace, serif;
+    letter-spacing: 0.05em;
+}
+
+
+.navbar-brand {
+    color: #333;
+    font-weight: bold;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: #333;
+}
+
+/* Style for form */
+.container {
+    margin-top: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.btn-success {
+    background-color: #5cb85c;
+    border-color: #4cae4c;
+    color: #fff;
+}
+
+.btn-success:hover {
+    background-color: #4cae4c;
+    border-color: #398439;
+}
+
+/* Style for alert */
+.alert {
+    margin-top: 20px;
+}
+
+/* Responsive styles */
+@media (max-width: 767px) {
+    .navbar-brand {
+        margin-left: 15px;
+    }
+}
+
+@media (max-width: 991px) {
+    .col-sm-4 {
+        margin-bottom: 20px;
+    }
+}
